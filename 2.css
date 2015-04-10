@@ -1,0 +1,49 @@
+#box
+{
+    width:500px;
+    height:500px;
+    margin:10px auto;
+    position:relative;
+    overflow:hidden;
+}
+/*以下是图片集样式*/
+ul
+{
+    padding:1px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:0;
+}
+ul li
+{
+    display:none;
+}
+ul .pic
+{
+    display:block;
+}
+
+/*以下是序号样式*/
+ol
+{
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    z-index:1;
+    margin-right:10px;
+}
+ol li
+{
+    list-style:none;
+    display:inline;
+    padding:5px;
+    background:#fff;
+    color:#f60;
+}
+ol .num
+{
+    background:gray;
+    color:#fff;
+}
+    
