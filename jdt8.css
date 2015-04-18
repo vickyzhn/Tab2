@@ -1,0 +1,21 @@
+#box{
+    width: 500px;
+    height: 367px;
+    position: relative;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+ul{
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+ul li{
+    list-style: none;
+    position: absolute;
+    top: 0;
+}

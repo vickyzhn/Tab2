@@ -1,0 +1,41 @@
+#box{
+    width: 500px;
+    height: 367px;
+    position: relative;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+ul li{
+    position: absolute;
+    left: 0;
+    list-style: none;
+    display: none;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+ol li{
+    list-style: none;
+    display: inline;
+    padding: 2px 5px;
+    background-color: white;
+    color: #f60;
+}
+
+ol{
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+}
+
+.showpic{
+    display: block;
+    opacity: 1;
+    filter: alpha(opacty=100);
+}
+
+.shownum{
+    color: white;
+    background-color: #f60;
+}

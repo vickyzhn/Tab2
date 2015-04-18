@@ -1,0 +1,37 @@
+#box{
+    width: 500px;
+    height: 367px;
+    position: relative;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+ul li{
+    position: absolute;
+    left: 0;
+    list-style: none;
+    display: none;
+}
+
+ol li{
+    list-style: none;
+    display: inline;
+    padding: 2px 5px;
+    background-color: white;
+    color: #f60;
+}
+
+ol{
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+}
+
+.showpic{
+    display: block;
+}
+
+.shownum{
+    color: white;
+    background-color: #f60;
+}
